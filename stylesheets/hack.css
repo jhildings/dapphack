@@ -17,10 +17,13 @@ section {
 
 h1, h2, h3, h4, h5, h6 {
   margin: 0 0 20px;
+  padding-bottom: 10px;
+  padding-top: 10px;
 }
 
 li {
   line-height: 1.4 ;
+  list-style-type:none;
 }
 
 /* Header, <header>
@@ -34,6 +37,7 @@ header {
   width: 100%;
   border-bottom: 1px dashed #b5e853;
   padding: 20px 0;
+  padding-left: 40px;
   margin: 0 0 40px 0;
 }
 
