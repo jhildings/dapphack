@@ -132,7 +132,6 @@ ul li {
 }
 
 ul li:before {
-  content: ">>";
   font-family: Monaco, "Bitstream Vera Sans Mono", "Lucida Console", Terminal, monospace;
   font-size: 13px;
   color: #b5e853;
@@ -225,8 +224,20 @@ hr {
 */
 
 a {
-  color: #63c0f5;
+  color: #b5e853;
   text-shadow: 0 0 5px rgba(104, 182, 255, 0.5);
+}
+
+navbar-inverse a {
+  color: #b5e853;
+  text-shadow: 0 0 5px rgba(104, 182, 255, 0.5);
+}
+
+
+a:hover {
+background-color: red !important;
+color: white !important;
+
 }
 
 /* Clearfix */
@@ -242,4 +253,15 @@ a {
 
 .cf {
   zoom:1;
+}
+
+
+.navbar {
+  background-color: black;
+
+}
+
+.navbar li:hover {
+  background-color: black;
+
 }
