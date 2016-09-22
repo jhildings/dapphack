@@ -229,6 +229,7 @@ a {
 }
 
 navbar-inverse a {
+  cursor: pointer;
   color: #b5e853;
   text-shadow: 0 0 5px rgba(104, 182, 255, 0.5);
 }
